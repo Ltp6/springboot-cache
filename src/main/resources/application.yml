@@ -6,6 +6,8 @@ spring:
     password: 123456
     driver-class-name: com.mysql.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
+  redis:
+    host: localhost
 #    druid:
 #      initialSize: 5
 #      minIdle: 5
@@ -34,3 +36,4 @@ mybatis:
 logging:
   level:
     com.ltp.mapper: debug
+

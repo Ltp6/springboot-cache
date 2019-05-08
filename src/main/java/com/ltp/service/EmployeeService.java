@@ -12,4 +12,6 @@ public interface EmployeeService {
     int delete(Integer id);
 
     int add(Employee employee);
+
+    Employee update(Employee employee);
 }

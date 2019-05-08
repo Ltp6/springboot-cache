@@ -24,6 +24,11 @@ public class EmployeeController {
         return employeeService.delete(id);
     }
 
+    @PutMapping(value = "emp/update")
+    public Employee update(Employee employee) {
+        return employeeService.update(employee);
+    }
+
     @GetMapping(value = "/emp/get/{id}")
     public Employee get(@PathVariable(value = "id") Integer id) {
         return employeeService.get(id);

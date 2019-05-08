@@ -7,6 +7,7 @@ import org.springframework.cache.annotation.EnableCaching;
 
 @SpringBootApplication
 @MapperScan("com.ltp.mapper")
+//开启缓存注解
 @EnableCaching
 public class SpringbootCacheApplication {
 
