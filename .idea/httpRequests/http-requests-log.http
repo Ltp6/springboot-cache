@@ -1,0 +1,62 @@
+GET http://localhost:8080/emp/list?lastname=llj&lastname=123445@qq.com&gender=2&dId=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-05-08T110715.200.json
+
+###
+
+GET http://localhost:8080/emp/get/2?lastname=llj&lastname=123445@qq.com&gender=2&dId=1
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+DELETE http://localhost:8080/emp/get/2?lastname=llj&lastname=123445@qq.com&gender=2&dId=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-05-08T110656.405.json
+
+###
+
+DELETE http://localhost:8080/emp/delete/2?lastname=llj&lastname=123445@qq.com&gender=2&dId=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-05-08T110651.200.json
+
+###
+
+DELETE http://localhost:8080/delete/2?lastname=llj&lastname=123445@qq.com&gender=2&dId=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-05-08T110642.404.json
+
+###
+
+GET http://localhost:8080/emp/list?lastname=llj&lastname=123445@qq.com&gender=2&dId=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-05-08T110625.200.json
+
+###
+
+POST http://localhost:8080/emp/add?lastname=llj&lastname=123445@qq.com&gender=2&dId=1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-05-08T110613.200.json
+
+###
+
+GET http://localhost:8080/emp/get/1
+Accept: */*
+Cache-Control: no-cache
+
+<> 2019-05-08T105753.200.json
+
+###
+
